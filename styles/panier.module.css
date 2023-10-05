@@ -1,0 +1,159 @@
+.panier {
+    margin: 0 auto;
+    width: 50%;
+
+    border: 2px solid;
+}
+
+.paniers {
+    width: 100%;
+    background: rgb(243, 242, 241);
+}
+
+
+
+.paniers th {
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+.paniers td {
+    text-align: center;
+    padding: .5rem .5rem;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+
+.paniers td img {
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.btn4 {
+    font-size: 1em;
+    color: #fff;
+    background: #033f2e;
+    padding: 10px 20px;
+    margin: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.btn5 {
+    font-size: 1em;
+    color: #fff;
+    background: #6c0529;
+    padding: 10px 20px;
+    margin: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.btn6 {
+    font-size: 3em;
+    margin: 15px 0px;
+
+}
+
+/***********disabled***/
+
+.disabledbtn {
+    cursor: not-allowed;
+
+
+    font-size: 1em;
+    color: #fff;
+    background: #033f2e;
+    padding: 10px 20px;
+    margin: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.disabledbtn1 {
+    background: #09794e;
+    font-size: 1em;
+    color: #fff;
+
+    padding: 10px 20px;
+    margin: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    width: 200px;
+}
+
+
+.tab {
+    text-align: center;
+    width: 100%;
+    background: rgb(226, 219, 219);
+}
+
+.panierbuttons {
+    text-align: center;
+}
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    background: red;
+    text-align: center;
+}
+
+.grid_conteneur_titre {
+
+    background: rgb(250, 241, 241);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 30px;
+
+    row-gap: 2px;
+    margin-bottom: 5px;
+    width: 50%;
+
+}
+
+.grid_conteneur_titre img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.item1 {
+    padding: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.item2 {
+
+    padding: 2px;
+    font-size: 1.1rem;
+
+    font-weight: bold;
+
+
+}

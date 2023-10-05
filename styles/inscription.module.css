@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    background: rgb(153, 107, 51);
+
+
+}
+
+.container span {
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.container p {
+    font-size: 2rem;
+    color: white;
+}
+
+.input {
+    display: flex;
+    margin: 15px;
+    background: red;
+}
+
+.input1 {
+    display: flex;
+    margin: 15px;
+    padding: 80px;
+    background: rgb(0, 255, 157);
+}

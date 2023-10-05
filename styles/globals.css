@@ -1,0 +1,338 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fredoka One', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.produit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+  background: rgb(224, 215, 215);
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.menu {
+  width: 31%;
+
+  margin: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 15px;
+  gap: 5px;
+  position: relative;
+}
+
+.menu img {
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
+  text-align: center;
+
+}
+
+h3 {
+  margin: 15px;
+  font-weight: 900;
+}
+
+span {
+  color: red;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+input {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+
+.h {
+  color: red;
+  width: 85px;
+  font-size: 5rem;
+  padding: 20px;
+  background: yellow;
+}
+
+#menu {
+
+  padding-top: 60px;
+  text-align: center;
+}
+
+main {
+  min-height: 90vh;
+}
+
+
+
+.ajouterDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background: orange;
+  width: 100%;
+
+  border-radius: 15px;
+}
+
+.ajouterDetail button {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.detail {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+
+  background-image: url(../public/resto.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
+.detail a {
+  padding: 10px 20px;
+  background-color: #dae7e0;
+  margin-top: -10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+}
+
+.detail a:hover {
+  background: #d87710;
+  transition: ease-out;
+}
+
+.detailItem {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  font-size: 1rem;
+  padding: 60px;
+  margin: 30px;
+
+  border: solid 4px;
+  border-radius: 30px;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 680px) {
+  .detailItem {
+    width: 100%;
+  }
+
+  .detailItem img {
+    width: 200px;
+  }
+}
+
+
+/***inscription
+*/
+.panier {
+
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/resto.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
+.panier .contenu {
+  max-width: 70%;
+  text-align: center;
+}
+
+.panier h2 {
+  color: rgb(39, 37, 37);
+  font-size: 1em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.panier .contenu p {
+  color: #ffff;
+  padding: 15px;
+  font-size: 1.5em;
+
+}
+
+
+.contacform {
+  padding: 75px 50px;
+  background-color: #fff;
+  box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+  max-width: 500px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 38%;
+}
+
+.contacform h3 {
+  color: #111;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.contacform .inputboite {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.contacform .inputboite1 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+
+.contacform .inputboite input,
+.contacform .inputboite textarea {
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+
+.contacform .inputboite1 input,
+.contacform .inputboite1 textarea {
+  width: 100%;
+  border: 1px solid #555;
+  padding: 10px;
+  color: #111;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+  resize: none;
+}
+
+.contacform .inputboite input[type="submit"] {
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffff;
+  background-color: #fb911f;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  max-width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacform .inputboite1 input[type="submit"] {
+  cursor: not-allowed;
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffff;
+  background-color: #fb911f;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  max-width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/**
+footer
+**/
+footer {
+  padding: 25px;
+  font-size: 1.5em;
+  background-color: rgb(148, 136, 136);
+  text-align: center;
+}
+
+footer span {
+  color: #fb911f;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 680px) {
+  .contacform {
+    margin: 0;
+  }
+}
+
+/***Titre*/
+.titre {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3rem;
+}
+
+.titre span {
+  font-size: 4rem;
+}
+
+/****lien actif***/
+.active {
+  font-weight: bold;
+  color: blue;
+}

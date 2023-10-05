@@ -1,0 +1,97 @@
+.commandes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.commande {
+    width: 50%;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.commande li {
+    border: 3px solid rgb(167, 18, 18);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.commande .info {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+}
+
+.commande .info .id {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.commande .info .date {
+    width: 100%;
+}
+
+.commande .info select {
+    padding: .5rem 1rem;
+    border: 3px solid #64e2cd;
+}
+
+.commande .produit {
+    border-collapse: collapse;
+}
+
+.commande .produit th {
+    text-align: left;
+    padding: 1rem .5rem;
+}
+
+.commande .produit tr {
+    border-bottom: 1px solid #000;
+}
+
+.commande .produit tbody tr:last-child {
+    border: none;
+}
+
+.commande .produit td {
+    white-space: nowrap;
+    padding: 1rem .5rem;
+}
+
+.commande .produit td:first-child {
+    padding-left: 1rem;
+}
+
+.commande .produit td:last-child {
+    padding-right: 1rem;
+}
+
+.commande .produit img {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+.commande .produit .nom {
+    width: 100%;
+}
+
+.commande .produit .quantite {
+    text-align: right;
+}
+
+@media screen and (max-width: 680px) {
+    .commande {
+        width: 90%;
+    }
+}
+
+.cacher {
+    display: none;
+}
